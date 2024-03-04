@@ -9,13 +9,15 @@ import { selectIsCartOpen } from '../../store/cart/cart.selector';
 import { selectCurrentUser } from '../../store/user/user.selector';
 import { signOutStart } from '../../store/user/user.action';
 
-import { ReactComponent as CrwnLogo } from '../../assets/glitzy-logo.svg';
+import { ReactComponent as GlitzyLogo } from '../../assets/glitzy-logo.svg';
+import {ReactComponent as GlitzyIcon} from '../../assets/glitzy-icon.svg';
 
 import {
   NavigationContainer,
   NavLinks,
   NavLink,
   LogoContainer,
+  MobileLogoContainer,
 } from './navigation.styles';
 
 const Navigation = () => {
@@ -29,8 +31,11 @@ const Navigation = () => {
     <Fragment>
       <NavigationContainer>
         <LogoContainer to='/'>
-            <CrwnLogo className='logo' />
+            <GlitzyLogo className='logo' />
         </LogoContainer>
+        <MobileLogoContainer to='/'>
+          <GlitzyIcon className='logo' />
+        </MobileLogoContainer>
         <NavLinks>
           <NavLink to='/shop'>SHOP</NavLink>
 

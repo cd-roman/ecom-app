@@ -6,11 +6,11 @@ export const NavigationContainer = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 
   @media screen and (max-width: 800px) {
     height: 60px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     margin-bottom: 20px;
   }
 `;
@@ -18,11 +18,26 @@ export const NavigationContainer = styled.div`
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
-  padding: 10px 25px 25px 0px;
+  padding: 16px 25px 25px 0px;
 
   @media screen and (max-width: 800px) {
     width: 50px;
-    padding: 0;
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  @media screen and (max-width: 599px) {
+    display: none;
+  }
+`;
+
+export const MobileLogoContainer = styled(Link)`
+  height: 100%;
+  width: 40px;
+  padding: 0px 25px 20px 0px;
+
+  @media screen and (min-width: 600px) {
+    display: none;
   }
 `;
 

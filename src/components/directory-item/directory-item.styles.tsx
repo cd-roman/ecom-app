@@ -9,7 +9,7 @@ export const BackgroundImage = styled.div`
 
 export const Body = styled.div`
   height: 90px;
-  padding: 0 20px;
+  padding: 0 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +55,7 @@ export const DirectoryItemContainer = styled.div`
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
+  margin: 0px 8px 16px 0px;
   overflow: hidden;
 
   &:hover {
@@ -69,13 +69,5 @@ export const DirectoryItemContainer = styled.div`
     & ${Body} {
       opacity: 0.9;
     }
-  }
-
-  &:first-child {
-    margin-right: 7.5px;
-  }
-
-  &:last-child {
-    margin-left: 7.5px;
   }
 `;

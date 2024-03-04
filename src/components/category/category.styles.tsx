@@ -29,6 +29,7 @@ export const CategoryItemsPreview = styled.div`
 `;
 
 export const CategoryTitle = styled.h2`
+    
     font-size: 36px;
     margin-bottom: 25px;
     text-align: center;
