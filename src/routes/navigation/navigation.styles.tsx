@@ -68,5 +68,6 @@ export const NavLink = styled(Link)`
 
   @media screen and (max-width: 400px) {
     padding-right: 20px;
+    font-size: 16px;
   }
 `;
