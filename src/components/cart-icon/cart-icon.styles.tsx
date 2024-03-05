@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CartIconContainer = styled.div`
-  width: 45px;
+  width: 24px;
   height: 45px;
   position: relative;
   display: flex;

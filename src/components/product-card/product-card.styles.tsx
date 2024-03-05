@@ -35,7 +35,7 @@ export const ProductCardContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    width: 40vw;
+    width: 45vw;
 
     button {
       display: block;
@@ -55,7 +55,7 @@ export const ProductCardContainer = styled.div`
   }
 
   @media screen and (max-width: 500px) {
-    width: 80vw;
+    width: 88vw;
   }
 `;
 

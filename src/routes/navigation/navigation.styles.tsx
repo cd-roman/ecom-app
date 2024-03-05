@@ -18,7 +18,7 @@ export const NavigationContainer = styled.div`
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
-  padding: 16px 25px 25px 0px;
+  padding: 12px 25px 16px 0px;
 
   @media screen and (max-width: 800px) {
     width: 50px;
@@ -28,6 +28,7 @@ export const LogoContainer = styled(Link)`
 
   @media screen and (max-width: 599px) {
     display: none;
+    padding-top: 8px;
   }
 `;
 
@@ -54,10 +55,18 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  padding: 10px 15px;
+  padding: 10px 60px 10px 0px;
   cursor: pointer;
   
   &:hover {
     color: #357ae8;
+  }
+
+  @media screen and (max-width: 800px) {
+    padding-right: 32px;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding-right: 20px;
   }
 `;
