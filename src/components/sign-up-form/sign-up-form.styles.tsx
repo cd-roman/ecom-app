@@ -15,6 +15,7 @@ export const SignUpContainer = styled.div`
 
     @media screen and (max-width: 600px) {
         width: 80%;
+        margin-top: 40px;
         
         h2 {
             font-size: 24px;

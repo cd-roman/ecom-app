@@ -1,6 +1,11 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+
+	html {
+		overflow-y: scroll;
+	}
+	
 	body {
 		font-family: 'Open Sans', sans-serif;
 		padding: 20px 40px;
@@ -8,10 +13,12 @@ export const GlobalStyle = createGlobalStyle`
 			padding: 10px;
 		}
 	}
+
 	a {
 		text-decoration: none;
 		color: black;
 	}
+	
 	* {
 		box-sizing: border-box;
 	}
