@@ -13,8 +13,9 @@ export const CheckoutItemContainer = styled.div`
     font-size: 18px;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     font-size: 16px;
+    justify-content: space-between;
   }
 `;
 
@@ -25,6 +26,14 @@ export const ImageContainer = styled.div`
   img {
     width: 100%;
     height: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+
+    &:first-child {
+      display: none;
+    }
   }
 `;
 
@@ -47,4 +56,9 @@ export const Value = styled.span`
 export const RemoveButton = styled.div`
   padding-left: 12px;
   cursor: pointer;
+
+  @media screen and (max-width: 600px) {
+    padding-left: 0px;
+    padding-right: 24px;
+  }
 `;
