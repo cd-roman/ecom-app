@@ -12,6 +12,8 @@ import { signOutStart } from '../../store/user/user.action';
 import { ReactComponent as GlitzyLogo } from '../../assets/glitzy-logo.svg';
 import {ReactComponent as GlitzyIcon} from '../../assets/glitzy-icon.svg';
 
+import Footer from '../../components/footer/footer.component';
+
 import {
   NavigationContainer,
   NavLinks,
@@ -51,6 +53,7 @@ const Navigation = () => {
         {isCartOpen && <CartDropdown />}
       </NavigationContainer>
       <Outlet />
+      <Footer />
     </Fragment>
   );
 };
