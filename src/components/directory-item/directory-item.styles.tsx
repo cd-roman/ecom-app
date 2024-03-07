@@ -20,7 +20,7 @@ export const Body = styled.div`
   position: absolute;
 
   h2 {
-    font-weight: bold;
+    font-weight: 300;
     margin: 0 6px 0;
     font-size: 22px;
     color: #4a4a4a;
@@ -28,7 +28,7 @@ export const Body = styled.div`
   }
   
   p {
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 16px;
   }
 

@@ -6,7 +6,7 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
-  background-color: #a7a7a7;
+  background-color: #222222;
   padding-left: 0;
   padding-right: 0;
   position: absolute;
