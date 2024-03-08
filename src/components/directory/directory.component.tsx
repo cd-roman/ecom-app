@@ -15,32 +15,32 @@ const categories: DirectoryCategory[] = [
   {
     id: 1,
     title: 'headwear',
-    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-    route: 'shop/hats',
+    imageUrl: 'https://live.staticflickr.com/65535/53573232162_70d0d8684c_w.jpg',
+    route: 'shop/headwear',
   },
   {
     id: 2,
     title: 'outerwear',
     imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-    route: 'shop/jackets',
+    route: 'shop/outerwear',
   },
   {
     id: 3,
     title: 'shoes',
     imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
-    route: 'shop/sneakers',
+    route: 'shop/shoes',
   },
   {
     id: 4,
     title: 'women',
-    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
-    route: 'shop/womens',
+    imageUrl: 'https://live.staticflickr.com/65535/53574295263_bae20e5948_c.jpg',
+    route: 'shop/women',
   },
   {
     id: 5,
     title: 'men',
     imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
-    route: 'shop/mens',
+    route: 'shop/men',
   },
 ];
 
