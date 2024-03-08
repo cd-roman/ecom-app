@@ -81,10 +81,10 @@ export const Total = styled.span`
   font-size: 36px;
 
   @media screen and (max-width: 800px) {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   @media screen and (max-width: 600px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 `;

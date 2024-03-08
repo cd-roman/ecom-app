@@ -15,7 +15,7 @@ const categories: DirectoryCategory[] = [
   {
     id: 1,
     title: 'headwear',
-    imageUrl: 'https://live.staticflickr.com/65535/53573232162_70d0d8684c_w.jpg',
+    imageUrl: 'https://live.staticflickr.com/65535/53574492897_527979e8b3_o.jpg',
     route: 'shop/headwear',
   },
   {
@@ -33,13 +33,13 @@ const categories: DirectoryCategory[] = [
   {
     id: 4,
     title: 'women',
-    imageUrl: 'https://live.staticflickr.com/65535/53574295263_bae20e5948_c.jpg',
+    imageUrl: 'https://live.staticflickr.com/65535/53575582703_a95a93b9e1_o.jpg',
     route: 'shop/women',
   },
   {
     id: 5,
     title: 'men',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    imageUrl: 'https://live.staticflickr.com/65535/53575898020_4bb727aa9e_o.jpg',
     route: 'shop/men',
   },
 ];

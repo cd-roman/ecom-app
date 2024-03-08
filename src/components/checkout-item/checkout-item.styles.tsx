@@ -17,6 +17,10 @@ export const CheckoutItemContainer = styled.div`
     font-size: 16px;
     justify-content: space-between;
   }
+
+  @media screen and (max-width: 360px) {
+    font-size: 14px;
+  }
 `;
 
 export const ImageContainer = styled.div`
