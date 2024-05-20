@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const ProductCardContainer = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
   height: 350px;
   align-items: center;
   position: relative;
@@ -35,8 +35,6 @@ export const ProductCardContainer = styled.div`
   }
 
   @media screen and (max-width: 800px) {
-    width: 45vw;
-
     button {
       display: block;
       opacity: 0.9;
@@ -52,10 +50,6 @@ export const ProductCardContainer = styled.div`
         opacity: unset;
       }
     }
-  }
-
-  @media screen and (max-width: 500px) {
-    width: 88vw;
   }
 `;
 

@@ -53,6 +53,7 @@ export const DirectoryItemContainer = styled.div`
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  border-box: box-sizing;
   overflow: hidden;
 
   &:hover {
