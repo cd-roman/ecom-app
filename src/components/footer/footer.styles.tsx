@@ -21,7 +21,7 @@ export const FooterContainer = styled.div`
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
-  padding: 20px 0px 0px 5%;
+  padding: 20px 0px 0px 60px;
 
   @media screen and (max-width: 800px) {
     width: 50px;
@@ -36,7 +36,7 @@ export const LogoContainer = styled(Link)`
 export const MobileLogoContainer = styled(Link)`
   height: 100%;
   width: 40px;
-  margin-left: 18px;
+  padding-left: 24px;
 
   @media screen and (min-width: 600px) {
     display: none;
@@ -48,14 +48,14 @@ export const ShopName = styled.div`
   font-size: 18px;
   color: white;
   align-items: center;
-  padding: 0px 5% 0px 0px;
+  padding: 0px 60px 0px 0px;
 
   @media screen and (max-width: 1000px) {
     font-size: 16px;
   }
 
   @media screen and (max-width: 800px) {
-    padding-right: 16px;
+    padding-right: 24px;
   }
 
   @media screen and (max-width: 600px) {
