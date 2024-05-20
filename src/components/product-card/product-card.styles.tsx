@@ -72,8 +72,8 @@ export const Footer = styled.div`
 `;
 
 export const Name = styled.span`
-    width: 80%;
-    margin-bottom: 15px;
+  width: 80%;
+  margin-bottom: 15px;
 `;
 
 export const Price = styled.span`

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -9,10 +9,8 @@ export const GlobalStyle = createGlobalStyle`
 	body {
 		font-family: 'Oswald', sans-serif;
 		letter-spacing: 1px;
-		padding: 20px 40px;
-		@media screen and (max-width: 800px) {
-			padding: 10px;
-		}
+		padding: 0;
+		margin: 0;
 	}
 
 	a {
