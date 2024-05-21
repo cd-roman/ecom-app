@@ -13,7 +13,7 @@ export const NavigationContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 60px;
-    padding: 10px 0px 28px;
+    padding: 10px 0px 40px;
   }
 `;
 
@@ -34,10 +34,12 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const MobileLogoContainer = styled(Link)`
-  height: 100%;
-  width: 40px;
+  display: flex;
+  height: 80px;
+  width: 80px;
   padding: 0px 25px 0px 0px;
   align-content: center;
+  align-items: center;
 
   @media screen and (min-width: 600px) {
     display: none;
