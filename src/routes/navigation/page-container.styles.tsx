@@ -13,4 +13,12 @@ export const ContentWrapper = styled.div`
   @media screen and (max-width: 800px) {
     padding: 20px 24px 0px;
   }
+
+  @media screen and (max-width: 800px) {
+    padding: 20px 24px 0px;
+  }
+
+  @media screen and (max-width: 400px) {
+    padding: 20px 16px 0px;
+  }
 `;
