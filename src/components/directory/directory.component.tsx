@@ -11,7 +11,8 @@ export type DirectoryCategory = {
   route: string;
 };
 
-const categories: DirectoryCategory[] = [
+// Export the categories array so it can be used by the shop component
+export const categories: DirectoryCategory[] = [
   {
     id: 1,
     title: 'headwear',
