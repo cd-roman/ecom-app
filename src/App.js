@@ -16,6 +16,7 @@ const Home = lazy(() => import('./routes/home/home.component'));
 const Authentication = lazy(() =>
   import('./routes/authentication/authentication.component')
 );
+const NotFound = lazy(() => import("./routes/not-found/not-found.component"));
 
 const App = () => {
   const dispatch = useDispatch();
@@ -28,11 +29,12 @@ const App = () => {
     <Suspense fallback={<Spinner />}>
       <GlobalStyle />
       <Routes>
-        <Route path='/' element={<Navigation />}>
+        <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
-          <Route path='shop/*' element={<Shop />} />
-          <Route path='auth' element={<Authentication />} />
-          <Route path='checkout' element={<Checkout />} />
+          <Route path="shop/*" element={<Shop />} />
+          <Route path="auth" element={<Authentication />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </Suspense>
