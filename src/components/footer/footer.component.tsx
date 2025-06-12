@@ -6,8 +6,8 @@ import {
   ShopName,
 } from "./footer.styles";
 
-import { ReactComponent as GlitzyLogoWhite } from "../../assets/glitzy-logo-white.svg";
-import { ReactComponent as GlitzyIcon } from "../../assets/glitzy-icon.svg";
+import GlitzyLogoWhite from "../../assets/glitzy-logo-white.svg?react";
+import GlitzyIcon from "../../assets/glitzy-icon.svg?react";
 
 const Footer: React.FC = () => {
   return (

@@ -9,8 +9,8 @@ import { selectIsCartOpen } from "../../store/cart/cart.selector";
 import { selectCurrentUser } from "../../store/user/user.selector";
 import { signOutStart } from "../../store/user/user.action";
 
-import { ReactComponent as GlitzyLogo } from "../../assets/glitzy-logo.svg";
-import { ReactComponent as GlitzyIcon } from "../../assets/glitzy-icon.svg";
+import GlitzyLogo from "../../assets/glitzy-logo.svg?react";
+import GlitzyIcon from "../../assets/glitzy-icon.svg?react";
 
 import Footer from "../../components/footer/footer.component";
 
